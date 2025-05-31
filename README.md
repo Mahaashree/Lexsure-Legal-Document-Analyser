@@ -1,4 +1,4 @@
-#Lexsure - Legal Document Risk Analyzer
+# Lexsure - Legal Document Risk Analyzer
 
 A  FastAPI-based application that analyzes legal documents for potential risks and generates annotated PDFs with highlighted risk clauses and suggested improvements.
 
