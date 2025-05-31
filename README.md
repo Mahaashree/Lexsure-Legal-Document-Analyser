@@ -90,6 +90,9 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 4. Click "Analyze Document"
 5. Download the annotated PDF with risk highlights
 
+![image](https://github.com/user-attachments/assets/24f90af5-b306-4a73-a1a5-77fdd39b05fb)
+![image](https://github.com/user-attachments/assets/5d29255c-fd1f-4b65-a5e0-d7ffcdad3f8e)
+![image](https://github.com/user-attachments/assets/107036dc-5acb-403f-a433-c3fc159e25b8)
 
 
 ### Interactive API Documentation
