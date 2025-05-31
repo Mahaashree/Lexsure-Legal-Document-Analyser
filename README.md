@@ -182,13 +182,6 @@ legal-document-analyzer/
 - No permanent storage of user documents
 
 
-### Adding New Risk Categories
-
-1. Update the `category` enum in the LLM prompts
-2. Add category-specific analysis logic
-3. Update the color mapping in `create_annotation()`
-4. Add tests for the new category
-
 ## 📊 Performance
 
 ### Benchmarks
@@ -197,12 +190,6 @@ legal-document-analyzer/
 - **Medium documents** (6-20 pages): ~1-3 minutes
 - **Large documents** (21-50 pages): ~2-5 minutes
 
-### Scaling Considerations
-
-- **Horizontal scaling**: Deploy multiple instances behind a load balancer
-- **Caching**: Implement Redis for repeated document analysis
-- **Queue system**: Use Celery for background processing
-- **Database**: Add PostgreSQL for user management and document history
 
 ## 🤝 Contributing
 
